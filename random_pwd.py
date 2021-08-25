@@ -15,5 +15,5 @@ for i in range(pwd_length):
     pwd.append(random.choice(pwd_characters))
 
 #Display the password to the user using the print function
-password = ''.join(str(pwd))
+password = ''.join(pwd)
 print(password)
